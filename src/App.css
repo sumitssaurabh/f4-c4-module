@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: #f0f0f0;
+}
+.homeDiv{
+  padding: 20px;
+   
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  
+ 
+  flex-wrap: wrap;
+
+}
+
+li {
+    margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 421px; height: 350px; 
+}
+.imgageDiv{
+margin: 10px;
+/* background-color: #333; */
+
+
+}
+.imgageDiv img{
+ width: 50%;
+ height: 40%;
+
+ 
+  
+  
+      border-radius: 20px;
+   
+     
+}
+
+li h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+li p {
+  margin: 0;
+}
+
+.link-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.link-button:hover {
+  background-color: #0056b3;
+}
+
+.detail-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.detail-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.detail-body {
+  margin-top: 0;
+}
+
+
+
+
+
+/* nav */
+
+/* app.css */
+.nav1 {
+  display: flex;
+  gap: 22%;
+  align-items: center;
+  padding: 10px;
+  background-color: orange;
+  height: 95.73px;
+}
+
+
+.logo {
+
+font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.icons {
+width: 431px;
+ height: 73px;
+  top: 11px;
+   left: 667px;
+    border-radius: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.icons a {
+  width: 24px; height: 26px ;
+  margin-right: 10px;
+  color:#F9DDCF;
+  text-decoration: none;
+}
+
+.icons a.active {
+  color: orange;
+    width: 22px;
+      height: 24px;
+  /* Change the color to your desired active color */
+}
+
+.homeDiv h1{
+  width: 558px;
+   height: 66px;
+   padding-top:25px ;
+    
+    font-family: Montserrat;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 44px;
+      letter-spacing: 0em;
+      text-align: center;
+}
